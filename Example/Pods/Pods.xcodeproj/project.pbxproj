@@ -33,24 +33,24 @@
 		0DD79B226E3D1E4FFA652078691A38A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ED21DB3BB603ABD4FDE1F50201E9D1F /* Pods-SnapchatSwipeContainer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapchatSwipeContainer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0F867242C16102C642DB1A55F18C401D /* Pods-SnapchatSwipeContainer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnapchatSwipeContainer_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		13A19131CE2A96B3138670E3C1AF89F5 /* SnapchatSwipeContainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapchatSwipeContainer.framework; path = SnapchatSwipeContainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A19131CE2A96B3138670E3C1AF89F5 /* SnapchatSwipeContainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapchatSwipeContainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		366AAA3C008015D2EA5425671952CD1E /* Pods-SnapchatSwipeContainer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapchatSwipeContainer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		59143DA2A623BB69C940D150F7FC2218 /* Pods-SnapchatSwipeContainer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapchatSwipeContainer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		59B34B6FE1F1C4EB4C046571E0E1A35D /* Pods-SnapchatSwipeContainer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnapchatSwipeContainer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5A363BF61CB0C5A1B77425389C70020E /* Pods-SnapchatSwipeContainer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SnapchatSwipeContainer_Example.modulemap"; sourceTree = "<group>"; };
-		6DF36816B282FCE64C2AB0981BE31D40 /* SnapchatSwipeContainer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SnapchatSwipeContainer.modulemap; sourceTree = "<group>"; };
+		5A363BF61CB0C5A1B77425389C70020E /* Pods-SnapchatSwipeContainer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SnapchatSwipeContainer_Example.modulemap"; sourceTree = "<group>"; };
+		6DF36816B282FCE64C2AB0981BE31D40 /* SnapchatSwipeContainer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapchatSwipeContainer.modulemap; sourceTree = "<group>"; };
 		76BB7DDD237A5225CBA2E7E6F778F073 /* SnapchatSwipeContainer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapchatSwipeContainer-dummy.m"; sourceTree = "<group>"; };
 		7AE5A9A2F1B022DE8E03EB5EB0C12D0D /* Pods-SnapchatSwipeContainer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SnapchatSwipeContainer_Example-umbrella.h"; sourceTree = "<group>"; };
-		7BC2A59E43C569EC82B400BB1C486D2B /* Pods_SnapchatSwipeContainer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SnapchatSwipeContainer_Example.framework; path = "Pods-SnapchatSwipeContainer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC2A59E43C569EC82B400BB1C486D2B /* Pods_SnapchatSwipeContainer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapchatSwipeContainer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E06DCE4E2874248A9DD709B7CC32D25 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		80B739416BB475E61F00614C768883C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98D367D8ED750D1DEEE8288EE9053C89 /* Pods-SnapchatSwipeContainer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnapchatSwipeContainer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		98E16DB9D129592F6F26A9D88DC0DF19 /* Pods-SnapchatSwipeContainer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SnapchatSwipeContainer_Tests-dummy.m"; sourceTree = "<group>"; };
-		AC1695704F8D59C88598511A15498984 /* Pods_SnapchatSwipeContainer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SnapchatSwipeContainer_Tests.framework; path = "Pods-SnapchatSwipeContainer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1695704F8D59C88598511A15498984 /* Pods_SnapchatSwipeContainer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapchatSwipeContainer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8F90AD38B31A15A6869CBD6BE1FA05 /* Pods-SnapchatSwipeContainer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnapchatSwipeContainer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B36C0AB5BF376FF5ED8A08F98B2E7B5A /* Pods-SnapchatSwipeContainer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapchatSwipeContainer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C517AF31BC223821273827A514C72BB5 /* Pods-SnapchatSwipeContainer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SnapchatSwipeContainer_Tests.modulemap"; sourceTree = "<group>"; };
+		C517AF31BC223821273827A514C72BB5 /* Pods-SnapchatSwipeContainer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SnapchatSwipeContainer_Tests.modulemap"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CE7D66676DA5E5C6AF2E61E8183EC9C9 /* SnapchatSwipeContainer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapchatSwipeContainer.xcconfig; sourceTree = "<group>"; };
 		CFBE616E7CDCEA33AA482A8CE2B291B7 /* Pods-SnapchatSwipeContainer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SnapchatSwipeContainer_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -97,7 +97,6 @@
 			children = (
 				EDBA01F22B429523FC90BCAB75974F08 /* Classes */,
 			);
-			name = SnapchatSwipeContainer;
 			path = SnapchatSwipeContainer;
 			sourceTree = "<group>";
 		};
@@ -212,7 +211,6 @@
 			children = (
 				7E06DCE4E2874248A9DD709B7CC32D25 /* ReplaceMe.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -314,6 +312,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					8349D23D9E50572A17ED0680BBEAF03C = {
+						LastSwiftMigration = 0820;
+					};
+					FB0BFBB1EBDE4B2D38340153A7AE1A0D = {
+						LastSwiftMigration = 0820;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -433,6 +439,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -539,6 +546,7 @@
 				PRODUCT_NAME = SnapchatSwipeContainer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -575,6 +583,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -654,6 +663,7 @@
 				PRODUCT_NAME = Pods_SnapchatSwipeContainer_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
