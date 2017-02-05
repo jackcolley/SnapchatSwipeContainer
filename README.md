@@ -1,6 +1,5 @@
 # SnapchatSwipeContainer
 
-[![CI Status](http://img.shields.io/travis/jackcolley/SnapchatSwipeContainer.svg?style=flat)](https://travis-ci.org/jackcolley/SnapchatSwipeContainer)
 [![Version](https://img.shields.io/cocoapods/v/SnapchatSwipeContainer.svg?style=flat)](http://cocoapods.org/pods/SnapchatSwipeContainer)
 [![License](https://img.shields.io/cocoapods/l/SnapchatSwipeContainer.svg?style=flat)](http://cocoapods.org/pods/SnapchatSwipeContainer)
 [![Platform](https://img.shields.io/cocoapods/p/SnapchatSwipeContainer.svg?style=flat)](http://cocoapods.org/pods/SnapchatSwipeContainer)
@@ -10,6 +9,9 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+Xcode 8.0+
+Swift 3
+iOS 9.0+
 
 ## Installation
 
@@ -20,9 +22,12 @@ it, simply add the following line to your Podfile:
 pod "SnapchatSwipeContainer"
 ```
 
+## Usage
+See Example Project for correct usage
+
 ## Author
 
-jackcolley, jack.colley@netsells.co.uk
+jackcolley, jack@jackcolley.co.uk
 
 ## License
 
