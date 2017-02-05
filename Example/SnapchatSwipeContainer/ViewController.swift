@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapchatSwipeContainer
 
 class ViewController: UIViewController {
 
@@ -21,6 +22,18 @@ class ViewController: UIViewController {
     }
 
     @IBAction func presentContainerView(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let greenVC = storyboard.instantiateViewController(withIdentifier: "greenVC")
+        let redVC = storyboard.instantiateViewController(withIdentifier: "redVC")
+        let blueVC = storyboard.instantiateViewController(withIdentifier: "blueVC")
+        
+        let snapchatSwipeContainer = SnapchatSwipeContainerViewController()
+        snapchatSwipeContainer.leftVC = greenVC
+        snapchatSwipeContainer.middleVC = redVC
+        snapchatSwipeContainer.rightVC = blueVC
+
+        self.present(snapchatSwipeContainer, animated: true, completion: nil)
     }
 }
 
