@@ -1,0 +1,6 @@
+framework module Pods_SnapchatSwipeContainer_Tests {
+  umbrella header "Pods-SnapchatSwipeContainer_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

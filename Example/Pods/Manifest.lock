@@ -1,0 +1,16 @@
+PODS:
+  - SnapchatSwipeContainer (0.1.0)
+
+DEPENDENCIES:
+  - SnapchatSwipeContainer (from `../`)
+
+EXTERNAL SOURCES:
+  SnapchatSwipeContainer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SnapchatSwipeContainer: 1bcd480c08b57a182a8b2ba2695af8cb0965b362
+
+PODFILE CHECKSUM: 9bbfa4879f00c1fa5486335ac7932257790c6807
+
+COCOAPODS: 1.2.0
