@@ -1,25 +1,102 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SnapchatSwipeContainer_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BbS-5Z-IoQ">
+                                <rect key="frame" x="16" y="308" width="343" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="0f3-9U-eny"/>
+                                </constraints>
+                                <state key="normal" title="Present SnapchatSwipeContainer"/>
+                                <connections>
+                                    <action selector="presentContainerView:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="B1r-xn-lL0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BbS-5Z-IoQ" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="4i0-sL-3UT"/>
+                            <constraint firstItem="BbS-5Z-IoQ" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="6bV-QA-O9W"/>
+                            <constraint firstAttribute="trailing" secondItem="BbS-5Z-IoQ" secondAttribute="trailing" constant="16" id="dxT-IX-afI"/>
+                            <constraint firstItem="BbS-5Z-IoQ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="zta-DJ-cYX"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Zg5-6M-6r7">
+            <objects>
+                <viewController storyboardIdentifier="greenVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="iMs-DX-npP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VZ1-e6-zlH"/>
+                        <viewControllerLayoutGuide type="bottom" id="rE1-Pb-T9c"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2sa-G1-TXs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.4487078786" green="0.77148157360000003" blue="0.1806410551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rbW-TT-GEm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="921" y="137"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VAO-5A-vig">
+            <objects>
+                <viewController storyboardIdentifier="redVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hgv-U2-UQC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RmM-r3-kW5"/>
+                        <viewControllerLayoutGuide type="bottom" id="xMc-Kk-a0B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p0K-F9-s8t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rd4-Pd-sOI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1711" y="136"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wgw-14-3DY">
+            <objects>
+                <viewController storyboardIdentifier="blueVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pIC-hF-UwA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dRD-nJ-XHu"/>
+                        <viewControllerLayoutGuide type="bottom" id="XMl-aj-HqY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EH6-Kb-Vho">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.062745098040000002" green="0.46666666670000001" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wLx-jp-75f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2585" y="135"/>
         </scene>
     </scenes>
 </document>
