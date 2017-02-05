@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SnapchatSwipeContainer_Example' do
+  pod 'SnapchatSwipeContainer', :path => '../'
+
+  target 'SnapchatSwipeContainer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
